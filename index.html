@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Portfolio CV de Kemtsa Prince Manoel - Étudiant ICT4D, Développeur Web et Créateur Digital">
+    <meta name="keywords" content="portfolio, CV, développeur web, ICT4D, Kemtsa Prince Manoel">
+    <meta name="author" content="Kemtsa Prince Manoel">
+    <title>Kemtsa Prince Manoel | Portfolio ICT4D - Développeur Web Premium</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER PREMIUM -->
+<div class="loader-container" id="loader">
+    <div class="loader-ring">
+        <div></div><div></div><div></div><div></div>
+    </div>
+    <p class="loader-text">CHARGEMENT<span class="dots">...</span></p>
+</div>
+
+<!-- NAVIGATION STICKY -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <span class="logo-text">KPM</span>
+            <span class="logo-dot"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">ACCUEIL</a></li>
+            <li><a href="#bio" class="nav-link">BIOGRAPHIE</a></li>
+            <li><a href="#skills" class="nav-link">COMPÉTENCES</a></li>
+            <li><a href="#projects" class="nav-link">PROJETS</a></li>
+            <li><a href="#gallery" class="nav-link">GALERIE</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="animated-bg">
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere second"></div>
+    </div>
+    <div class="container hero-content">
+        <div class="hero-text">
+            <div class="hero-badge">
+                <span class="badge-glow">✦ ICT4D INNOVATOR ✦</span>
+            </div>
+            <h1>Kemtsa Prince <span class="gold-text">Manoel</span></h1>
+            <div class="typed-container">
+                <span class="typed-prefix">👨‍💻</span>
+                <span class="typed-title" id="typedTitle"></span>
+                <span class="typed-cursor">|</span>
+            </div>
+            <p class="hero-desc">Étudiant passionné en Licence 2 ICT4D à UY1. Je transforme les idées en expériences digitales premium, alliant design futuriste et performance technique.</p>
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary" id="downloadCVBtn">
+                    <i class="fas fa-download"></i> Télécharger CV
+                    <span class="btn-glow"></span>
+                </a>
+                <a href="#projects" class="btn btn-outline">
+                    <i class="fas fa-code"></i> Voir mes projets
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Me contacter
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-number">+15</span><span class="stat-label">Projets</span></div>
+                <div class="stat"><span class="stat-number">2</span><span class="stat-label">Années d'expérience</span></div>
+                <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Passion</span></div>
+            </div>
+        </div>
+        <div class="profile-img-wrapper">
+            <div class="profile-glow"></div>
+            <div class="profile-img">
+                <img src="assets/images/profile.JPG" alt="Kemtsa Prince Manoel">
+            </div>
+            <div class="profile-status">
+                <span class="status-dot"></span>
+                Disponible 
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</section>
+
+<!-- SECTION BIOGRAPHIE -->
+<section id="bio">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">À PROPOS</span>
+            <h2>Qui suis-je ?</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-user-astronaut"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="bio-grid">
+            <div class="bio-card glass-card">
+                <div class="bio-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>Parcours académique</h3>
+                <p>Étudiant en <strong>Licence 2 ICT4D</strong> à l'<strong>ICT University</strong> (Matricule 24H2151). Formation axée sur les technologies de l'information et de la communication pour le développement, combinant expertise technique et impact social.</p>
+            </div>
+            <div class="bio-card glass-card">
+                <div class="bio-icon"><i class="fas fa-bullseye"></i></div>
+                <h3>Objectifs professionnels</h3>
+                <p>Devenir <strong>architecte full-stack</strong> et consultant en transformation digitale pour les entreprises africaines. Créer des solutions innovantes qui allient esthétique premium, accessibilité et performance technique.</p>
+            </div>
+            <div class="bio-card glass-card">
+                <div class="bio-icon"><i class="fas fa-heart"></i></div>
+                <h3>Passion & Vision</h3>
+                <p>Amoureux du web moderne, du design futuriste et des technologies émergentes. Mon credo : <strong>allier beauté visuelle et robustesse technique</strong> pour offrir des expériences utilisateur mémorables.</p>
+            </div>
+        </div>
+        <div class="bio-quote glass-card">
+            <i class="fas fa-quote-left"></i>
+            <p>"La technologie est le meilleur levier pour transformer les rêves en réalité. Chaque ligne de code est une opportunité de créer de la valeur."</p>
+            <span>— Kemtsa Prince Manoel</span>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION COMPÉTENCES -->
+<section id="skills">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">EXPERTISE</span>
+            <h2>Compétences techniques</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-code"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="skills-container">
+            <div class="skills-bars glass-card">
+                <h3><i class="fas fa-chart-line"></i> Niveaux de maîtrise</h3>
+                <div class="skill-item">
+                    <div class="skill-info"><span>HTML5 / CSS3</span><span>90%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>JavaScript (ES6+)</span><span>85%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Python</span><span>75%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Flutter</span><span>65%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="65"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Git / GitHub</span><span>80%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>UI/UX Design</span><span>82%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info"><span>Bases de données</span><span>70%</span></div>
+                    <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div>
+                </div>
+            </div>
+            <div class="skills-tags glass-card">
+                <h3><i class="fas fa-tags"></i> Technologies & outils</h3>
+                <div class="tags-cloud">
+                    <span class="tag">React.js</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">Figma</span>
+                    <span class="tag">Tailwind CSS</span>
+                    <span class="tag">SASS</span>
+                    <span class="tag">Firebase</span>
+                    <span class="tag">REST API</span>
+                    <span class="tag">VS Code</span>
+                    <span class="tag">Photoshop</span>
+                    <span class="tag">Premiere Pro</span>
+                </div>
+                <div class="soft-skills">
+                    <h4><i class="fas fa-brain"></i> Soft skills</h4>
+                    <div class="soft-tags">
+                        <span>🔹 Créativité</span>
+                        <span>🔹 Travail d'équipe</span>
+                        <span>🔹 Autonomie</span>
+                        <span>🔹 Gestion de projet</span>
+                        <span>🔹 Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION PROJETS -->
+<section id="projects">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">RÉALISATIONS</span>
+            <h2>Projets innovants</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-rocket"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+            <div class="project-card glass-card">
+                <div class="project-img"><img src="assets/images/project1.jpg" alt="Application CV Étudiants"><div class="project-overlay"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a></div></div>
+                <div class="project-info">
+                    <h3>Application CV Étudiants</h3>
+                    <p>Plateforme interactive permettant aux étudiants de créer des CV modernes et professionnels avec templates premium.</p>
+                    <div class="tech-stack"><span class="tech-badge">HTML/CSS/JS</span><span class="tech-badge">LocalStorage</span><span class="tech-badge">PDF Generator</span></div>
+                    <a href="#" class="demo-link">Voir démo <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img"><img src="assets/images/project2.jpg" alt="Kmtshopdeals"><div class="project-overlay"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a></div></div>
+                <div class="project-info">
+                    <h3>Kmtshopdeals</h3>
+                    <p>Boutique en ligne luxueuse avec panier dynamique, animations 3D et système de recommandations.</p>
+                    <div class="tech-stack"><span class="tech-badge">React</span><span class="tech-badge">Redux</span><span class="tech-badge">Stripe</span></div>
+                    <a href="#" class="demo-link">Voir démo <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img"><img src="assets/images/project3.jpg" alt="Blog ActuJeune"><div class="project-overlay"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a></div></div>
+                <div class="project-info">
+                    <h3>Blog ActuJeune.cm</h3>
+                    <p>Blog d'actualité jeune et tech au Cameroun, design moderne et interface administrateur complète.</p>
+                    <div class="tech-stack"><span class="tech-badge">PHP/MySQL</span><span class="tech-badge">Tailwind</span><span class="tech-badge">CKEditor</span></div>
+                    <a href="#" class="demo-link">Voir démo <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-img"><img src="assets/images/project4.jpg" alt="Portfolio Personnel"><div class="project-overlay"><a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a></div></div>
+                <div class="project-info">
+                    <h3>Portfolio Personnel</h3>
+                    <p>Interface futuriste avec glassmorphisme, animations scroll et expérience utilisateur immersive.</p>
+                    <div class="tech-stack"><span class="tech-badge">HTML/CSS/JS</span><span class="tech-badge">GSAP</span><span class="tech-badge">Three.js</span></div>
+                    <a href="#" class="demo-link">Voir démo <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION GALERIE PHOTOS -->
+<section id="gallery">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">MOMENTS</span>
+            <h2>Galerie immersive</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-camera"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="gallery-grid" id="galleryGrid">
+            <div class="gallery-item"><img src="assets/images/gallery1.JPG" alt="Session de codage"><div class="gallery-caption"><span>Coding Session</span></div></div>
+            <div class="gallery-item"><img src="assets/images/gallery2.JPG" alt="Conférence ICT4D"><div class="gallery-caption"><span>ICT4D Conference</span></div></div>
+            <div class="gallery-item"><img src="assets/images/gallery3.JPG" alt="Team work"><div class="gallery-caption"><span>Team Collaboration</span></div></div>
+            <div class="gallery-item"><img src="assets/images/gallery4.JPG" alt="Hackathon"><div class="gallery-caption"><span>Hackathon 2025</span></div></div>
+            <div class="gallery-item"><img src="assets/images/gallery5.JPG" alt="Certification"><div class="gallery-caption"><span>Certification Day</span></div></div>
+            <div class="gallery-item"><img src="assets/images/gallery6.JPG" alt="Présentation"><div class="gallery-caption"><span>Project Pitch</span></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION VIDÉO + AUDIO -->
+<section id="media">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">MULTIMÉDIA</span>
+            <h2>Présentation dynamique</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-play-circle"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="media-flex">
+            <div class="video-card glass-card">
+                <div class="media-header"><i class="fas fa-video"></i><h3>Vidéo de présentation</h3></div>
+                <div class="video-wrapper">
+                    <video id="myVideo" poster="assets/images/video-poster.jpg">
+                        <source src="assets/video/presentation.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la vidéo.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn play-pause"><i class="fas fa-play"></i></button>
+                        <div class="video-progress"><div class="progress-fill"></div></div>
+                        <button class="video-btn volume"><i class="fas fa-volume-up"></i></button>
+                        <span class="video-time">0:00 / 0:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="audio-card glass-card">
+                <div class="media-header"><i class="fas fa-headphones"></i><h3>Audio professionnel</h3></div>
+                <div class="audio-visualizer">
+                    <canvas id="visualizer" width="300" height="60"></canvas>
+                </div>
+                <div class="custom-audio-player">
+                    <button class="play-btn" id="playPauseAudio"><i class="fas fa-play"></i></button>
+                    <div class="audio-info">
+                        <span class="audio-title">Présentation de Manoel</span>
+                        <span class="audio-duration">00:00 / 00:00</span>
+                    </div>
+                    <audio id="myAudio" src="assets/audio/presentation.mp3"></audio>
+                </div>
+                <p class="audio-desc">Écoutez mon pitch professionnel et découvrez ma vision du développement digital.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION FORMATION -->
+<section id="education">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">FORMATION</span>
+            <h2>Parcours académique</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-university"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="timeline-container">
+            <div class="timeline-item glass-card">
+                <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2024 - 2026</span>
+                    <h3>Licence 2 en ICT4D</h3>
+                    <h4>ICT4D UY1 — Yaoundé, Cameroun</h4>
+                    <p>Spécialisation en développement d'applications web/mobile, bases de données, et innovations sociales. Formation intensive aux technologies émergentes et à l'entrepreneuriat digital.</p>
+                    <div class="timeline-badge">Matricule : 24H2151</div>
+                </div>
+            </div>
+            <div class="timeline-item glass-card">
+                <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2024</span>
+                    <h3>Baccalauréat Scientifique C</h3>
+                    <h4>Lycée nkolbisson, Yaoundé</h4>
+                    <p>Mention assez Bien — Spécialité Mathématiques et Sciences Physiques. Premiers projets en programmation et développement web.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">RÉSEAUX</span>
+            <h2>Entrons en contact</h2>
+            <div class="section-divider">
+                <span class="divider-line"></span>
+                <i class="fas fa-envelope"></i>
+                <span class="divider-line"></span>
+            </div>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info glass-card">
+                <h3><i class="fas fa-address-card"></i> Informations</h3>
+                <div class="contact-details">
+                    <p><i class="fas fa-envelope"></i> manoelkemtsa800@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +237 657698220</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Yaoundé, Cameroun</p>
+                </div>
+                <div class="social-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                <div class="availability">
+                    <span class="status-badge"><i class="fas fa-circle"></i> Disponible pour opportunités</span>
+                </div>
+            </div>
+            <div class="contact-form glass-card">
+                <h3><i class="fas fa-paper-plane"></i> Envoyez-moi un message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nom complet" required>
+                        <i class="fas fa-user form-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email professionnel" required>
+                        <i class="fas fa-envelope form-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Objet">
+                        <i class="fas fa-tag form-icon"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Votre message..." required></textarea>
+                        <i class="fas fa-comment form-icon"></i>
+                    </div>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
+                    <p id="formFeedback"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER PREMIUM -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <h3>Kemtsa Prince <span class="gold-text">Manoel</span></h3>
+            <p>Créateur Digital | Développeur Web | Innovateur ICT4D</p>
+        </div>
+        <div class="footer-links">
+            <a href="#home">Accueil</a>
+            <a href="#projects">Projets</a>
+            <a href="#skills">Compétences</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2026 Kemtsa Prince Manoel — Design futuriste & premium. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+        <span class="close-lightbox">&times;</span>
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
